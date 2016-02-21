@@ -1,0 +1,44 @@
+{
+  "name": "dailog-router-api",
+  "version": "0.0.1",
+  "description": "A wrapper to connect with and query the API on the Huawei 4G routers provided by Dailog Telecom",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "keywords": [
+    "dailog",
+    "huawei",
+    "4g",
+    "lte",
+    "sri lanka",
+    "B310",
+    "api",
+    "router",
+    "network"
+  ],
+  "author": "Ishan Marikar <ishan.marikar@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "default": "^0.1.1",
+    "pretty-bytes": "^3.0.1",
+    "request": "^2.69.0",
+    "url-join": "0.0.1",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-marikar/dailog-router-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ishan-marikar/dailog-router-api/issues"
+  },
+  "homepage": "https://github.com/ishan-marikar/dailog-router-api#readme"
+}
