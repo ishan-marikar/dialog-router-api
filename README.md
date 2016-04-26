@@ -1,5 +1,5 @@
 # dialog-router-api
-A wrapper to connect with and query the API on the Huawei 4G routers provided by Dialog Telecom
+A wrapper to connect with and query the API on the Huawei 4G routers provided by Dialog Axiata
 
 ## Installation
   npm install dialog-router-api --save
