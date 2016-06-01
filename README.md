@@ -172,7 +172,9 @@ Responds with the basic settings of the router.
 ```
 
 ## Tests
-  npm test
+  HUAWEI_GW_IP=192.168.8.1 HUAWEI_GW_PASSWORD=abc123 npm test
+
+You most likely need to set your device IP and he admin password on the command-line like in the example.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
