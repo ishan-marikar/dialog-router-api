@@ -87,7 +87,7 @@ describe('login', function() {
   it('should login correctly to the router', function(done) {
     var router = new Router();
     router.getToken(function(error, token) {
-      router.login(token, 'admin', process.env.HUAWEI_GW_PASSWORD, function(error, response) {
+      router.login(token, process.env.HUAWEI_GW_USERNAME, process.env.HUAWEI_GW_PASSWORD, function(error, response) {
         expect(error).to.not.exist;
         expect(response).to.equal('OK');
         done();
