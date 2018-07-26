@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "mocha": "^3.2.0",
-    "should": "^11.1.2"
+    "should": "^13.2.2"
   },
   "directories": {
     "test": "tests"
