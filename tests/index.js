@@ -35,6 +35,18 @@ describe('getSignal', function() {
   });
 });
 
+describe('getHostList', function() {
+  it('should respond with the host-list information on the router ', function(done) {
+    var router = new Router();
+    router.getToken(function(error, token) {
+      router.getHostList(token, function(error, response) {
+        expect(response).to.have.property('Hosts');
+        done();
+      });
+    });
+  });
+});
+
 describe('getStatus', function() {
   it('should respond with the status information on the router ', function(done) {
     var router = new Router();
